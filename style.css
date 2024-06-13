@@ -1,0 +1,44 @@
+.judul{
+    text-align: center;
+    color: rgb(88, 2, 61);
+    
+}
+
+*, body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.awal{
+}
+
+@media only screen and (max-width: 600px) {
+    .banner{
+        height: 200px;
+    }
+
+    .form{
+        
+    }
+  }
+
+  .form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    size-adjust: 10px;
+    margin-right: 10px;
+    background-color: rgb(242, 239, 240);
+  }
